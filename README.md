@@ -6,8 +6,6 @@
 
 Interactive Streamlit application for image frequency spectrum analysis and quantitative comparison of multiple images using 2D FFT (Fast Fourier Transform)
 
-![Demo Screenshot](https://via.placeholder.com/800x400.png?text=Frequency+Analysis+UI+Demo)
-
 ## ✨ Key Features
 
 ### 🔬 Frequency Analysis
@@ -34,7 +32,7 @@ Interactive Streamlit application for image frequency spectrum analysis and quan
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/freq-spectrum-viewer.git
+git clone https://github.com/kroobose/freq-spectrum-viewer.git
 cd freq-spectrum-viewer
 ```
 
@@ -120,20 +118,6 @@ freq_analysis.py      # FFT analysis core logic
 
 Aggregating power by distance (radius) from center enables **rotation-invariant** quantification of frequency distribution. This is useful for image quality assessment and comparison.
 
-## 🎯 Use Cases
-
-### Image Quality Assessment
-- Compare original vs compressed images
-- Quantify high-frequency component loss
-
-### Noise Analysis
-- Compare clean vs noisy images
-- Identify frequency characteristics of noise
-
-### Image Processing Evaluation
-- Compare images before/after filter application
-- Verify effects in frequency domain
-
 ## 📁 Project Structure
 
 ```
@@ -144,16 +128,6 @@ freq-spectrum-viewer/
 ├── .python-version     # Python version specification
 └── README.md           # This file
 ```
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
